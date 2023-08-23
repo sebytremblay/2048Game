@@ -1,0 +1,27 @@
+@import "./styles/index.less";
+
+.App {
+  max-width: @pixel-size * 60;
+  margin: @pixel-size * 0 auto;
+
+  .header {
+    display: flex;
+    width: 100%;
+
+    > div {
+      flex: 1;
+    }
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.undo-button {
+  margin-right: 1rem;
+}
+
+
