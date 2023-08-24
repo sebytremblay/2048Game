@@ -123,7 +123,7 @@ export const Game = () => {
         </div>
         <div className="button-container">
           <Button onClick={handleUndo} className="undo-button">Undo Move</Button>
-          <Button onClick={handleReplay} className="restart-button">Restart</Button>
+          <Button onClick={handleReplay} className="restart-button">Game Replay</Button>
         </div>
       </div>
       <Board tiles={tiles} tileCountPerRow={tileCount} />
